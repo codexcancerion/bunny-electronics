@@ -1,0 +1,125 @@
+
+
+.custom-carousel {
+  width: 98%; /* Set the carousel width to 90% */
+  margin: 0 auto; /* Center align the carousel */
+  margin-top: 80px;  
+  border-radius: 10px;
+}
+
+.carousel-inner img {
+  width: 100%; /* Set width to 100% */
+  margin: auto;
+  min-height:200px;
+}
+
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none; 
+  }
+}
+
+.carousel-control-next {
+    font-size: 5rem !important; /* Adjust the size as needed */
+}
+
+
+
+
+.category-section {
+  width: 80%; /* Set the carousel width to 90% */
+  margin: 0 auto ; /* Center align the carousel */
+  margin-top: 100px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.category-bar {
+	height: 60px;
+	width: 100rem;
+	margin: 20px 30px 0 30px !important; 
+	max-width: 300px;
+	flex: 0 0 auto;
+	border: 1px solid grey;
+	padding: 0 !important;  
+	background-color: transparent;
+}
+
+.category-bar:hover {
+	border: grey;  
+	background-color: #FF1276; 
+	color: white;	
+	box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.5);
+}
+
+.cat-img-div {
+	padding: 0;
+	height: 100% !important;
+	width: 100%;	
+	border: 1px solid grey;
+	border-radius: 10px;
+	
+}
+.cat-img-div:hover {
+	border: grey;  
+	background-color: #FF1276; 
+	color: white;	
+	box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.5);	
+}
+
+.cat-img {
+	height: 100% !important;
+	float: left;
+	border-top-left-radius: 8px;
+	border-bottom-left-radius: 8px;
+}
+
+
+.category-bar .card-title {
+  float: left;
+  margin: 0;
+  margin-left: 1rem;
+	padding-top: 1rem;
+}
+
+.category-bar .card-body {
+  height: 100% !important;
+}
+
+
+
+
+
+
+
+
+
+.product-lineup {
+	width: 80%; /* Set the carousel width to 90% */
+	margin: 0 auto ; /* Center align the carousel */
+	border: 0px solid grey;
+	border-radius: 10px;
+	padding: 30px;
+}	
+.product-card {
+	width: 12rem;
+	margin: 20px 20px 0 20px;
+	border-radius: 10px !important;
+}	
+.product-card .card-img-top {
+	border-top-left-radius: 10px !important;
+	border-top-right-radius: 10px !important;
+}
+
+.product-card:hover {
+	box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.product-card .btn{
+	background-color: #FF1276;
+	border: 0;
+}	
+
+
